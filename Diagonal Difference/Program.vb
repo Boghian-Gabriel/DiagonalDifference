@@ -17,7 +17,7 @@ Module Program
         col = Integer.Parse(Console.ReadLine())
 
         If line = col Then
-            Console.WriteLine("Nr of lines is {0} adn nr of coll is {1}.", line, col)
+            Console.WriteLine("Nr of lines is {0} and nr of coll is {1}.", line, col)
             EnterMatrixEl(line, col)
             MatrixIs(line, col)
             Console.WriteLine()
