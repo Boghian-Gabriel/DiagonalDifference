@@ -96,7 +96,7 @@ Module Program
 '  secondary diagonal is calculated as follows: i+j  that index of i and j i=0, j=0 and  index of l (l means the index of line) => l=0
 'afte firs iteration we wil have: i=0, j=0, l=3 (nr of lines) => 0+0 = 3-1 (F)  
 ' next i=1, j=0 => 1+0 = 3-1 => 1=2(F)
-'next i=2 , j=0 => 2+0 = 3-2 (A) => arr(2,0) = 4  the first element of secondary column
+'next i=2 , j=0 => 2+0 = 3-1 (A) => arr(2,0) = 4  the first element of secondary column
 
                 If i + j = l - 1 Then
                     Console.Write("{0}", arr(i, j))
