@@ -81,7 +81,7 @@ Module Program
     End Function
 #End Region
 
-#Region "The amount on the secondary secondary"
+#Region "The amount on the secondary diagonal"
     Private Function SecondaryDiagonalOfMatrix(l As Integer, c As Integer)
         Console.WriteLine("Secondary Diagonal od Matrix:")
         Dim sumR As Integer = 0
